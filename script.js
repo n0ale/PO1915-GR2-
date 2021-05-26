@@ -35,6 +35,7 @@ button.addEventListener('click', function () {
       desc.innerHTML = descValue;
       temp.innerHTML = tempValue;
       document.querySelector('.celsius').innerHTML = '°C';
+      document.querySelector('.on').innerHTML = 'On ';
 
       date1.innerHTML = dateValue1.slice(5, 10);
       temp1.innerHTML = tempValue1;
